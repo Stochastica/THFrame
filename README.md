@@ -4,12 +4,12 @@ Customisable bullet-shooting game
 
 ## Dependencies and Deployment
 
-Requires Boost, glew, glfw
+Requires Boost, OpenGL, Glew, Glfw, OpenAL, LibPNG, Freetype2
 
 To compile,
 ```
 make build && cd build
-cmake ..
+cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 ```
 
